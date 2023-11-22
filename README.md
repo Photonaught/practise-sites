@@ -1,7 +1,8 @@
-Practise-Sites
+# Practise-Sites
 ==============
 The purpose contains websites and minor projects made only for practise and learning purposes.
 
-Table of Contents
+# Table of Contents
 -----------------
-Will be updated when code is added.
+## websiteOne
+Simple news site
