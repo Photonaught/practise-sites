@@ -5,10 +5,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>PIR News</title>
         <link rel="stylesheet" href="style.css">
-        <h1 class="company">Pretending It's Real</h1>
-        <h2 class="company">The only creditable new orginization</h2>
+        
     </head>
     <body>
+        <script src="accounts.js"></script>
+        <div>
+            <h1 class="company">Pretending It's Real</h1>
+            <h2 class="company">The only creditable new orginization</h2>
+        </div>
+        <div id="login">
+            <button onclick="login()">Login</button>
+            <div id="accountBox">
+                <button id="closeBtn" style="visibility: hidden;" closeBox()>Close</button>
+            </div>
+        </div>
         <div class="grid-container">
             <div class="grid-head">
                 <h1>Top Stories</h1>
