@@ -6,3 +6,5 @@ The purpose contains websites and minor projects made only for practise and lear
 
 ## 1. websiteOne
 Simple news page
+## 2. website2
+Playground for practising React
