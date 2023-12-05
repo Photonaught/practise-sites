@@ -5,4 +5,4 @@ The purpose contains websites and minor projects made only for practise and lear
 # Table of Contents
 
 ## 1. websiteOne
-Simple news site
+Simple news page
