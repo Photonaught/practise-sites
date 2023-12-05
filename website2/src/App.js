@@ -1,14 +1,22 @@
+import { useState } from "react";
+
 function MyBtn() {
+  const [count, setCount] =useState(0);
+  function handleClick() {
+    setCount(count + 1);
+  }
+
   return (
-    <button>Button</button>
+    <button onClick={handleClick}>{count}</button>
   );
 }
 
-function AboutPge() {
+function ExtraPage() {
   return (
     <>
-        <h1>About</h1>
-        <p>This is the<br />about page.</p>
+        <h1>Extra</h1>
+        <p>This is something...<br />extra?</p>
+        <MyBtn />
     </>
   );
 }
@@ -18,7 +26,7 @@ export default function MyApp() {
   <div>
     <h1>Welcome</h1>
     <MyBtn />
-    <AboutPge />
+    <ExtraPage />
   </div>
   );
 }
